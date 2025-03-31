@@ -3,19 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trình phát nhạc Plyr</title>
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+    <title>Trình phát nhạc</title>
 </head>
-<body style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f5f5f5;">
-
-    <audio id="player" controls>
-        <source src="https://your-audio-url.com/audio.mp3" type="audio/mp3">
+<body>
+    <h2>Trình phát nhạc của bạn 🎵</h2>
+    <audio controls autoplay>
+        <source src="biên tập đa phương tiện.mp3" type="audio/mp3">
+        Trình duyệt của bạn không hỗ trợ phát nhạc.
     </audio>
-
-    <script src="https://cdn.plyr.io/3.7.2/plyr.js"></script>
-    <script>
-        const player = new Plyr('#player');
-    </script>
-
 </body>
 </html>
